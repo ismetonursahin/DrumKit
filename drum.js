@@ -15,7 +15,7 @@ keys.addEventListener("keydown", (tus) => {
     case "s":
       let audioS = new Audio("/DrumKit/sound/hihat.wav");
       audioS.play();
-      let hitat = document.getElementById("hihat");
+      let hihat = document.getElementById("hihat");
       hihat.classList.add("playing");
       keys.addEventListener("keyup", (e) => {
         hihat.classList.remove("playing");
