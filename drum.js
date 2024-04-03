@@ -3,7 +3,7 @@ let keys = window.document;
 keys.addEventListener("keydown", (tus) => {
   switch (tus.key) {
     case "a":
-      let audioA = new Audio("/DrumKit/sound/clap.wav");
+      let audioA = new Audio("DrumKit/sound/clap.wav");
       audioA.play();
       let clap = document.getElementById("clap");
       clap.classList.add("playing");
