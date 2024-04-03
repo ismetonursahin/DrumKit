@@ -1,0 +1,64 @@
+* {
+  background-color: var(--primary-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+  --primary-color: #576cbc;
+  --secondary-color: #0b2447;
+  --text-color: #a5d7e8;
+}
+
+h1 {
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 55%;
+}
+
+.keys {
+  background-color: transparent;
+  width: 80%;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.keys button {
+  padding: 1.5rem;
+  width: 6rem;
+  border: 2px solid #576cbc;
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 600;
+  box-shadow: rgba(119, 117, 117, 0.655) 0px 2px 4px,
+    rgba(255, 255, 255, 0.728) 0px 7px 13px -3px,
+    rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
+}
+
+.playing {
+  transform: scale(1.05);
+  border: 2px solid var(--text-color);
+}
+
+.keys button span {
+  font-size: 1rem;
+  background-color: transparent;
+}
