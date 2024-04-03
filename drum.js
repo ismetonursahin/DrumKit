@@ -13,12 +13,12 @@ keys.addEventListener("keydown", (tus) => {
       break;
 
     case "s":
-      let audioS = new Audio("/DrumKit/sound/hitat.wav");
+      let audioS = new Audio("/DrumKit/sound/hihat.wav");
       audioS.play();
       let hitat = document.getElementById("hitat");
-      hitat.classList.add("playing");
+      hihat.classList.add("playing");
       keys.addEventListener("keyup", (e) => {
-        hitat.classList.remove("playing");
+        hihat.classList.remove("playing");
       });
       break;
 
